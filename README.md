@@ -268,21 +268,3 @@ When presenting this project to your faculty, note these important academic limi
 2. **Regional Specificity:** Trending criteria differ by geographic region and language preferences.
 3. **Correlation vs. Causation:** High correlation between likes and views does not prove that likes cause views; both reflect audience reach and external sharing.
 4. **Snapshot Gaps:** A video may trend for 1 day, drop off, and return later; daily logs capture discrete snapshots rather than continuous view curves.
-
----
-
-## 13. College Faculty Viva & Presentation Script
-
-Use this short script when presenting your project to the evaluator or faculty:
-
-> *"Good morning, Professors. Our project is titled **'YouTube Trending Video Analytics Using Big Data Technologies'**.*  
->  
-> *The objective of this project is to analyze historical YouTube trending data to discover patterns in viewership, audience engagement, content categories, and creator performance.*  
->  
-> *From a Big Data perspective, we tackled four key challenges:*  
-> *1. **Data Ingestion & Cleaning:** Historical logs have schema variations, missing values, and Unicode titles. We built a data cleaner that removes redundant daily snapshots using composite keys `(video_id + trending_date)` and safely handles zero-division errors when calculating engagement ratios.*  
-> *2. **Distributed Processing with PySpark:** We implemented an Apache Spark module that leverages in-memory RDDs, Catalyst optimization, and Spark SQL temporary views.*  
-> *3. **Data Warehousing with Apache Hive:** We authored production HiveQL scripts utilizing external staging tables with OpenCSVSerde and optimized managed tables using columnar ORC storage with Snappy compression.*  
-> *4. **Interactive Dashboard:** We built an interactive Streamlit dashboard featuring 8 analytical modules: Overview KPIs, Video Rankings, Category Benchmarks, Channel Performance, Engagement Correlations, Time-Based Analytics, a Data Explorer with CSV export, and a Big Data Engine console.*  
->  
-> *The project is fully modular, includes 23 passing automated unit tests, and runs locally without requiring expensive cloud infrastructure."*
