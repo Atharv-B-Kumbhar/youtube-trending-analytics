@@ -1,0 +1,14 @@
+# Core Web Dashboard & Visualizations
+streamlit>=1.30.0
+plotly>=5.18.0
+
+# Data Processing & Analytics
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=14.0.0
+
+# Big Data Processing (Local & Cluster mode)
+pyspark>=3.5.0
+
+# Testing & Quality Assurance
+pytest>=7.4.0

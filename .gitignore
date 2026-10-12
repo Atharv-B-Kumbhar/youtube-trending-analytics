@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# PySpark / Hadoop / Hive local artifacts
+metastore_db/
+spark-warehouse/
+derby.log
+*.spark/
+winutils/
+
+# Data files (keep documentation and sample fixtures)
+data/*.csv
+!data/README.md
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Testing & caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

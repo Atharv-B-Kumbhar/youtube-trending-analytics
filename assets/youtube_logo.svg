@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 159 36" width="159" height="36">
+  <g>
+    <!-- Official YouTube Icon Shape -->
+    <path fill="#FF0000" d="M35.6,3.9C35.2,2.4,34,1.2,32.5,0.8C29.7,0,18.2,0,18.2,0S6.7,0,3.9,0.8C2.4,1.2,1.2,2.4,0.8,3.9C0,6.7,0,12.5,0,12.5s0,5.8,0.8,8.6c0.4,1.5,1.6,2.7,3.1,3.1c2.8,0.8,14.3,0.8,14.3,0.8s11.5,0,14.3-0.8c1.5-0.4,2.7-1.6,3.1-3.1c0.8-2.8,0.8-8.6,0.8-8.6S36.4,6.7,35.6,3.9z"/>
+    <!-- Triangle Play Button -->
+    <polygon fill="#FFFFFF" points="14.6,17.8 24.1,12.5 14.6,7.2"/>
+  </g>
+  <!-- YouTube Wordmark -->
+  <text x="44" y="24" fill="#FFFFFF" font-family="'YouTube Sans', 'Roboto', 'Arial Black', sans-serif" font-weight="900" font-size="22" letter-spacing="-0.8px">YouTube</text>
+</svg>
