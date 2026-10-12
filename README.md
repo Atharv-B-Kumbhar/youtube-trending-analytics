@@ -24,7 +24,6 @@ A complete Big Data Analytics platform that analyzes historical YouTube trending
 10. [Running Automated Tests](#10-running-automated-tests)
 11. [Troubleshooting & Common Errors](#11-troubleshooting--common-errors)
 12. [Limitations of Historical Trending Data](#12-limitations-of-historical-trending-data)
-13. [College Faculty Viva & Presentation Script](#13-college-faculty-viva--presentation-script)
 
 ---
 
